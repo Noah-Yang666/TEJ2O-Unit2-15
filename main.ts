@@ -16,10 +16,14 @@ basic.showIcon(IconNames.Happy)
 
 // when A is pressed, sprite moves clockwise
 input.onButtonPressed(Button.A, function () {
+
+    // clearing everything
     basic.clearScreen()
     sprite = game.createSprite(0, 0)
     loopCounter1 = 0
     loopCounter2 = 0
+
+    // nested loops
     while (loopCounter1 < 4) {
         loopCounter1++
         loopCounter2 = 0
