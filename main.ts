@@ -25,7 +25,7 @@ input.onButtonPressed(Button.A, function () {
 
     // nested loops
     while (loopCounter1 < 4) {
-        loopCounter1++
+        loopCounter1 = 0
         loopCounter2 = 0
         while (loopCounter2 < 4) {
             sprite.move(1)
